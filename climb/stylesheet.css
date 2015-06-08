@@ -1,0 +1,132 @@
+body {
+    margin: 0 auto;
+    font-family: Courier;
+}
+
+#title{
+    color:#4C0F00;
+}
+
+#banner {
+    background-image:url('http://web.engr.oregonstate.edu/~lindenba/check/boulder2.png'); 
+    background-position: center !important;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 0px;
+    height:400px;
+    padding: 5px;
+    background-color: #85C2FF;
+    text-align: center;
+    min-width: 800px;
+}
+
+#page_wrap {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#form_wrap {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #66FF33;
+}
+
+.left {
+    text-align: left;
+}
+
+.button {
+    border : solid 1px #638a00;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+    font-size : medium;
+    color : #ffffff;
+    padding : 1px 17px;
+    background : #ccebff;
+    background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccebff), color-stop(100%,#000099));
+    background : -moz-linear-gradient(top, #ccebff 0%, #000099 100%);
+    background : -webkit-linear-gradient(top, #ccebff 0%, #000099 100%);
+    background : -o-linear-gradient(top, #ccebff 0%, #000099 100%);
+    background : -ms-linear-gradient(top, #ccebff 0%, #000099 100%);
+    background : linear-gradient(top, #ccebff 0%, #000099 100%);
+    filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccebff', endColorstr='#000099',GradientType=0 );
+
+}
+
+.button:hover {
+    background-color: #000099;
+}
+
+input[type=submit] {
+    font-size: medium;
+    display: inline-block;
+    padding : 1px 17px;
+    border: 2px solid black;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+    background-color: #CCEBFF;
+    margin: 0px 5px 0pc 5px;
+    background : #ccebff;
+    background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccebff), color-stop(100%,#000099));
+    background : -moz-linear-gradient(top, #ccebff 0%, #000099 100%);
+    background : -webkit-linear-gradient(top, #ccebff 0%, #000099 100%);
+    background : -o-linear-gradient(top, #ccebff 0%, #000099 100%);
+    background : -ms-linear-gradient(top, #ccebff 0%, #000099 100%);
+    background : linear-gradient(top, #ccebff 0%, #000099 100%);
+    filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccebff', endColorstr='#000099',GradientType=0 );
+}
+
+input[type=submit]:hover {
+    background-color: #000099;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+
+#error {
+    background-color: #FF6666;
+    text-align: center;
+    padding: 10px;
+}
+
+#success {
+    background-color: #66FF66;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse:collapse;
+    border:1px solid black;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+    padding : 1px 17px; 
+}
+
+th {
+    border:1px solid green;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+padding : 1px 17px;    background-color: #75FF47;
+}
+
+td {
+    border:1px solid green;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+padding : 1px 17px;    background-color: #D1FFC2;
+}
